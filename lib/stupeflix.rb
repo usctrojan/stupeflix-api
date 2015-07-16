@@ -6,7 +6,7 @@ require 'cgi'
 module Stupeflix
   class Video
     include HTTParty
-    base_uri 'services.stupeflix.com'
+    base_uri 'dragon.stupeflix.com'
 
     def initialize id, key, secret
       @id, @key, @secret = id, key, secret
